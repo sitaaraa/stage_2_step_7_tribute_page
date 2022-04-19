@@ -1,1 +1,107 @@
 /* Copy and paste your CSS from CodePen into here */
+
+
+body {
+    font-family: Georgia;
+    background: ##c3c4b9;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    justify-content: space-between;
+  }
+  #main {
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #3b3b3a;
+  
+  }
+  .myBeginning { 
+      position: relative; 
+      height: 100vh;
+      color: #ffffff;
+      width: 100%;
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      background-image: url("https://drive.google.com/uc?export=view&id=1nRmjj0MvX46xdhADueYz9c9j5Bkpo6aM");
+      background-size: cover;
+  }
+  #angelPhoto {
+    width: auto;
+    height: 200px;
+  }
+  
+  #lightsPhoto {
+    max-height: 300px;
+    width: auto;
+  }
+  
+  #bellsPhoto {
+    max-height: 100px;
+    width: auto;
+  }
+  
+  .rightSideImage {
+    max-width: 400px;
+    height: auto;
+    float: right;
+    padding: 0, 0, 20px, 20px;
+  }
+  
+  .leftText {
+    position: left;
+    text-align: left;
+  }
+  .leftSideImage {
+    max-width: 400px;
+    height: auto;
+    float: left;
+    padding: 5px 20px 20px 5px;
+  }
+  .rightText{
+    position: right;
+    text-align: right;
+  }
+  h1 { 
+    font-size: 8rem;
+    line-height: 0.9;
+  }
+  
+  h2 { 
+    font-size: 4rem;
+    line-height: 0.9;
+  }
+  
+  h3 { 
+    font-size: 2.5rem;
+    line-height: 0.9;
+  }
+  
+  p {
+    font-size: 1.5rem;
+    line-height: 1.1;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  #img-div {
+    padding: 10px;
+    margin: 0;
+  }
+  
+  #img-caption {
+    margin: 15px 0 5px 0;
+  }
+  
+  @media (max-width: 460px) {
+    #img-caption {
+      font-size: 1.4rem;
+    }
+  
+  
